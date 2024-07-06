@@ -388,7 +388,7 @@ ul {
   top: 80px; }
 
 .feature-section {
-  background: url(banner/pattern_bg.jpg) no-repeat center;
+  background: url(../banner/pattern_bg.jpg) no-repeat center;
   background-size: cover;
   padding: 60px 0; }
   @media (max-width: 767px) {
@@ -442,7 +442,7 @@ ul {
 /* 5. Banner */
 .banner-area {
   min-height: 800px;
-  background-image: url("banner/home-banner.jpg");
+  background-image: url("../banner/home-banner.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -484,7 +484,7 @@ ul {
     min-height: 660px;
     z-index: 1; }
     .blog_banner .banner_inner .overlay {
-      background: url(banner/banner-2.jpg) no-repeat scroll center center;
+      background: url(../banner/banner-2.jpg) no-repeat scroll center center;
       opacity: .5;
       height: 125%;
       position: absolute;
@@ -522,7 +522,7 @@ ul {
     overflow: hidden;
     width: 100%;
     min-height: 300px;
-    background: url(banner/banner-2.jpg) no-repeat scroll center center;
+    background: url(../banner/banner-2.jpg) no-repeat scroll center center;
     z-index: 1;
     background-size: cover; }
     .banner_area .banner_inner .banner_content h2 {
@@ -2501,7 +2501,7 @@ h6 {
   color: #020a21; }
 
 .primary-checkbox input:checked + label {
-  background: url(elements/primary-check.png) no-repeat center center/cover;
+  background: url(../elements/primary-check.png) no-repeat center center/cover;
   border: none; }
 
 .confirm-checkbox {
@@ -2535,7 +2535,7 @@ h6 {
   border: 1px solid #f1f1f1; }
 
 .confirm-checkbox input:checked + label {
-  background: url(elements/success-check.png) no-repeat center center/cover;
+  background: url(../elements/success-check.png) no-repeat center center/cover;
   border: none; }
 
 .disabled-checkbox {
@@ -2573,7 +2573,7 @@ h6 {
   z-index: 3; }
 
 .disabled-checkbox input:checked + label {
-  background: url(elements/disabled-check.png) no-repeat center center/cover;
+  background: url(../elements/disabled-check.png) no-repeat center center/cover;
   border: none; }
 
 .primary-radio {
@@ -2607,7 +2607,7 @@ h6 {
   border: 1px solid #f1f1f1; }
 
 .primary-radio input:checked + label {
-  background: url(elements/primary-radio.png) no-repeat center center/cover;
+  background: url(../elements/primary-radio.png) no-repeat center center/cover;
   border: none; }
 
 .confirm-radio {
