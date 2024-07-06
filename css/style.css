@@ -2988,7 +2988,7 @@ h6 {
 ============================================================================================ */
 .testimonial {
   background: #f7f7f7;
-  background-image: url("../img/background/bg_2.png");
+  background-image: url("../background/bg_2.png");
   background-size: cover;
   padding: 460px 0 95px 0;
   position: relative;
@@ -3114,7 +3114,7 @@ h6 {
 ============================================================================================ */
 .hotline-area {
   color: #fff;
-  background-image: url("../img/background/bg1.jpg");
+  background-image: url("../background/bg1.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -3246,7 +3246,7 @@ h6 {
 ============================================================================================ */
 .about-area {
   background: #f7f7f7;
-  background-image: url(../img/background/bg_1.png);
+  background-image: url(../background/bg_1.png);
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
