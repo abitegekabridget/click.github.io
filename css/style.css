@@ -142,7 +142,9 @@ ul {
   z-index: 99;
   transition: background 0.4s, all 0.3s linear; }
   .header_area .navbar {
-    background: transparent;
+    background: blue;
+
+/*     background: transparent; */
     padding: 0px;
     border: 0px;
     border-radius: 0px; }
