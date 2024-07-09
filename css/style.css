@@ -225,7 +225,8 @@ ul {
             .header_area .navbar .nav .nav-item.submenu ul .nav-item:last-child {
               border-bottom: none; }
             .header_area .navbar .nav .nav-item.submenu ul .nav-item:hover .nav-link {
-              background: #0051d2;
+/*               background: #0051d2;  */
+               background: blue;
               color: #fff; }
         @media (min-width: 992px) {
           .header_area .navbar .nav .nav-item.submenu:hover ul {
@@ -244,7 +245,8 @@ ul {
     top: -70px;
     left: 0;
     right: 0;
-    background: #fff;
+/*     background: #fff; */
+     background: blue;
     transform: translateY(70px);
     transition: transform 500ms ease, background 500ms ease;
     -webkit-transition: transform 500ms ease, background 500ms ease;
@@ -349,7 +351,8 @@ ul {
     color: #fff; }
 
 #search_input_box .form-control {
-  background: transparent;
+/*   background: transparent; */
+   background: blue;
   border: 0;
   color: #ffffff;
   font-weight: 400;
