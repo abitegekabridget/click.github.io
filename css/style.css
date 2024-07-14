@@ -3313,6 +3313,7 @@ h6 {
 }
 .footer-area {
   background-color: blue; /* Added background color */
+    color: white; /* Default text color */
 }
 .footer-area .single-footer-widget h4 {
   color: #33363e;
