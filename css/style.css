@@ -3466,6 +3466,31 @@ h6 {
 }
 /*---------------------------------------------------- */
 
+.newsletter-form {
+    display: flex;
+    align-items: center;
+}
+
+.newsletter-form input[type="email"] {
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.newsletter-form button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #5cb85c;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.newsletter-form button i {
+    margin-left: 5px;
+}
 
 
 /*# sourceMappingURL=style.css.map */
