@@ -1,16 +1,40 @@
 /* Home Banner Area css
 ============================================================================================ */
 /* 5. Banner */
+// .banner-area {
+// 	min-height: 800px;
+// 	background-image: url('..banner/home-banner.jpg');
+// 	background-repeat: no-repeat;
+// 	background-position: center;
+// 	background-size: cover;
+// 	position: relative;
+// 	@media (max-width: 767px){
+// 		min-height: 600px;
+// 	}
+
+
+
 .banner-area {
-	min-height: 800px;
-	background-image: url('..banner/home-banner.jpg');
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-	position: relative;
-	@media (max-width: 767px){
-		min-height: 600px;
-	}
+    min-height: 800px;
+    position: relative;
+    overflow: hidden;
+}
+
+.banner-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+@media (max-width: 767px) {
+    .banner-area {
+        min-height: 600px;
+    }
+}
 
 
 	h1{
